@@ -1,0 +1,82 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#toDo {
+  padding: 40px 0;
+}
+#toDo .text-box {
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  min-height: 200px;
+  background-color: #9C6644;
+  border-radius: 18px;
+}
+#toDo .text-box h2 {
+  font-size: 38px;
+  color: #fff;
+  font-weight: 900;
+}
+#toDo .text-box .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+#toDo .text-box .form input {
+  border-radius: 16px;
+  padding: 10px 8px;
+  width: 70%;
+}
+#toDo .text-box .form .btn {
+  width: 40%;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin: 15px 0 0;
+  border-radius: 24px;
+}
+#toDo .minibox {
+  margin-top: 20px;
+  padding: 20px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#toDo .minibox h2 {
+  border: 2px solid #21391c;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 16px;
+  padding: 10px 8px;
+  min-height: 40px;
+  word-wrap: break-word;
+}
+@media (max-width: 992px) {
+  #toDo .text-box {
+    width: 50%;
+  }
+  #toDo .text-box .form .btn {
+    width: 30%;
+  }
+  #toDo .minibox {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #toDo .text-box,
+  #toDo .minibox {
+    width: 60%;
+  }
+}
+@media (max-width: 480px) {
+  #toDo .text-box,
+  #toDo .minibox {
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */
